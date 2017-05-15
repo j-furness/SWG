@@ -1,0 +1,20 @@
+#cover {
+    display: block;
+    margin: auto;
+}
+#info {
+    text-align: center;
+    margin: auto;
+}
+#members{
+    position: left;
+}
+#tracks{
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+table{
+    margin: 0 auto;
+    width: 75%;
+}
