@@ -30,34 +30,58 @@
         <center><h1>Peel</h1></center>
         <hr/>
         <div id="navigation">
-            <a href="index.html">Home</a>
-            <a href="menu.html">Menu</a>
-            <a href="contact.html">Contact Us</a>
+            <ul id="navBar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
         </div>
         <hr/>
         <div id="contact">
-            <center>
-               <form action="#" method="post">
-                   Name: <input type="text" name="name" /><br/>
-                   Email: <input type="text" name="email" /><br/>
-                   Phone: <input type="text" name="number" /><br/>
-                   Reason for Inquiry: <select name="reason">
+            <form action="#" method="post">
+                <p>
+                   <label id="req">Name: </label>
+                   <input type="text" name="name" />
+                </p><br/>
+                <p>
+                   <label id="req">Email: </label>
+                   <input type="text" name="email" />
+                </p><br/>
+                <p>
+                    <label id="req">Phone: </label>
+                    <input type="text" name="number" />
+                 </p><br/>
+                 <p>  
+                   <label id="req">Reason for Inquiry: </label>
+                                        <select name="reason">
                                         <option value="catering">Catering</option>
                                         <option value="party">Private Party</option>
                                         <option value="feedback">Feedback</option>
                                         <option value="other">Other</option>
-                                       </select><br/>
-                   Additional Information: <textarea name="additionalInfo"></textarea><br/>
-                   Have you been to the restaurant? <input type="radio" name="beenTo" value="no" checked />No
-                                                    <input type="radio" name="beenTo" value="yes" />Yes<br/>
-                   Best days to contact you: <input type="checkbox" name="cont" value="monday" />M
+                                       </select>
+                 </p><br/>
+                 <p>  
+                   <label>Additional Information: </label>
+                   <textarea name="additionalInfo"></textarea>
+                 </p><br/>
+                 <p>  
+                   <label id="req">Have you been to the restaurant? </label>
+                   <input type="radio" name="beenTo" value="no" checked />No
+                   <input type="radio" name="beenTo" value="yes" />Yes
+                 </p><br/>
+                 <p>  
+                   <label id="req">Best days to contact you: </label>
+                                             <input type="checkbox" name="cont" value="monday" />M
                                              <input type="checkbox" name="cont" value="tuesday" />T
                                              <input type="checkbox" name="cont" value="wednesday" />W
                                              <input type="checkbox" name="cont" value="thursday" />TH
-                                             <input type="checkbox" name="cont" value="friday" />F<br/>
-                   <input type="submit" value="Send Request" />
-               </form> 
-            </center>
+                                             <input type="checkbox" name="cont" value="friday" />F
+                 </p><br/>
+                 <p>
+                     <label></label>                 
+                     <input type="submit" value="Send Request" />
+                 </p>
+            </form> 
         </div>
         <hr/>
         <footer>

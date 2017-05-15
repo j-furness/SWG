@@ -1,3 +1,42 @@
+#title{
+    text-align: center;
+    font-family: sans-serif;
+}
+#menu th{
+    font-size: larger;
+}
+#menu{
+    background-color: grey;
+}
+#desc{
+    background-color: grey;
+}
 footer{
     text-align: center;
+}
+#contact{
+    width: 50%;
+    margin: auto;
+}
+#contact form{
+    display: table;
+}
+#contact p{
+    display: table-row;
+}
+#contact label{
+    display: table-cell;
+    text-align: right;
+}
+#contact input{
+    display: table-cell;
+}
+#contact select{
+    display: table-cell;
+}
+#contact textarea{
+    display: table-cell;
+}
+#req{
+    font-weight: bold;
 }
