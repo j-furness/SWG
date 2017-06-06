@@ -2,6 +2,12 @@
     text-align: center;
     font-family: sans-serif;
 }
+a:visited{
+    color: white;
+}
+a:hover{
+    font-weight: bold;
+}
 #menu th{
     font-size: larger;
 }
@@ -39,4 +45,8 @@ footer{
 }
 #req{
     font-weight: bold;
+}
+.bev{
+    width: 300px;
+    margin: auto;
 }
