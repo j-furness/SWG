@@ -1,0 +1,61 @@
+a {
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    background-color: grey;
+}
+#cover {
+    display: block;
+    margin: auto;
+    height: 250px;    
+}
+#info {
+    text-align: center;
+    margin: auto;
+}
+#info h1{
+    font-family: sans-serif;
+}
+#members{
+    position: left;
+}
+#members h2{
+    font-family: sans-serif;
+}
+#members li{
+    font-style: italic;
+}
+#tracks{
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+table{
+    margin: 0 auto;
+    width: 75%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+tbody{
+    font-style: italic;
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: lightcyan;
+}
+thead{
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: lightslategrey;
+}
+#space{
+    height: 500px;
+}
+img{
+    display: block;
+    margin: auto;
+}
